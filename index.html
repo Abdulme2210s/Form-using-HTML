@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelling details</title>
+</head>
+
+<body>
+    <div>
+        <h1>Online Booking form</h1>
+        <p>To reserve seats please complete and submit
+            the booking forms.
+        </p>
+        <hr>
+    </div>
+    <div>
+        <form action="mailto:xyz@gmail.com" method="post" enctype="text/plain">
+            <div>
+                <label for="sectionid">Full Name</label>
+                <br>
+                <input type="text" name="First name" placeholder="Enter your Fname" id="sectionid"> &nbsp; &nbsp;
+                <input type="text" name="last name" placeholder="Enter your Lname" id="sectionid">
+            </div>
+            <br>
+            <div>
+                <label for="sectionidb">email</label>
+                <br>
+                <input type="email" name="Your Email" id="sectionidb" placeholder="ex: myname@example.com" size="30">
+            </div>
+            <br>
+            <div>
+                <label for="sectionidc">Phone Number</label>
+                <br>
+                <input type="text" id="sectionidc" name="Areacode" maxlength="3" size="3" placeholder="+91">
+                <input type="number" name="Your Phone No." id="sectionidc"  maxlength="10" size="10" placeholder="000000000">
+            </div>
+            <br>
+            <div>
+                <label for="sectionidd">
+                    Departure Date:
+                </label><br>
+                <input type="date" name="Departuredate" id="sectionidd" placeholder="ex: 01/01/2023">
+            </div>
+            <br>
+            <div>
+                <label for="Sectionide">
+                    Return Date:
+                </label>
+                <br>
+                <input type="date" name="Returndata" id="Sectionide">
+            </div>
+            <br>
+            <div>
+                <label for="sectionidf">
+                    place You want to visit:
+                </label>
+                <br>
+                <div>
+                    <select name="place" id="sectionidf">
+                        <option value="select">select</option>
+                        <option value="New York">New York</option>
+                        <option value="London">London</option>
+                        <option value="Berline">Berline</option>
+                        <option value="San Frencisco">San Frencisco</option>
+                        <option value="Other">Other</option>
+
+                    </select>
+                </div>
+                <br>
+                <label for="sectionidg">
+                    What are your requirements :
+                </label>
+                <br>
+                <textarea name="requirements" id="sectionidg" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <input type="submit" name="">
+    </div>
+
+
+
+    </form>
+</body>
+
+</html>
